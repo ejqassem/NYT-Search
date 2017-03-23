@@ -27,23 +27,23 @@
 
   <form>
    <div class="form-group">
-     <label for="term">Search Term:</label>
+     <label for="term">Search Term<span id="required">(Required):</span></label>
      <input type="text" class="form-control" id="term" placeholder="Roosevelt">
    </div>
 
    <div class="form-group">
-     <label for="records">Number of Records to Retrieve:</label>
+     <label for="records">Number of Records to Retrieve <span id="required">(Required):</span></label>
      <input type="text" class="form-control" id="records" placeholder="10">
    </div>
 
    <div class="form-group">
-     <label for="start">Start Year (Optional):</label>
-     <input type="text" class="form-control" id="start" placeholder="1980">
+     <label for="start">Start Year(Optional): </label>
+     <input type="text" class="form-control" id="start" placeholder="Must be in YYYYMMDD">
    </div>
 
    <div class="form-group">
      <label for="end">End Year (Optional):</label>
-     <input type="password" class="form-control" id="end" placeholder="1990">
+     <input type="password" class="form-control" id="end" placeholder="Must be in YYYYMMDD">
    </div>
    </form>
 

@@ -1,3 +1,11 @@
+h1 {
+  margin-bottom: 100px;
+}
+
+#required {
+  color: red;
+}
+
 .articles {
   padding-bottom: 20px;
 }
@@ -12,7 +20,7 @@
     -1px -1px 0 white,
     1px -1px 0 white,
     -1px 1px 0 white,
-    1px 1px 0 white;  
+    1px 1px 0 white;
 }
 
 h1 {
